@@ -26,6 +26,6 @@ user-tasks name:
 user-accept task-id:
   curl --location --request POST 'http://localhost:8080/user/accept/{{task-id}}'
 
-#
+# Get transition history
 history process-id:
   curl --location --request GET 'http://localhost:8080/process/{{process-id}}'
